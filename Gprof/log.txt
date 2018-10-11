@@ -1,0 +1,113 @@
+Script started on Tue 26 Sep 2017 02:41:37 AM EDT
+]0;kfon@sol35:~/Desktop/gprof_assignment[?1034h[kfon@sol35 gprof_assignment]$ nano main.cpp[21@g++ -Wall -pg main.cpp -[C[C[C[C[C[C[C[C[C[C
+main.cpp: In function ‘int delete_acct(int*, double*, int)’:
+main.cpp:169: warning: control reaches end of non-void function
+]0;kfon@sol35:~/Desktop/gprof_assignment[kfon@sol35 gprof_assignment]$ ./main.cpp
+ACCOUNT #0
+BALANCE: $50
+
+ACCOUNT #1
+BALANCE: $200
+
+ACCOUNT #2
+BALANCE: $700
+
+ACCOUNT #3
+BALANCE: $1600.57
+
+ACCOUNT #4
+BALANCE: $500
+
+ACCOUNT #5
+BALANCE: $600
+
+Select one of the following:
+W - Withdraw
+D - Deposit
+N - New Account
+B - Balance
+Q - Quit
+X - Delete Account
+
+q
+ACCOUNT #0
+BALANCE: $50
+
+ACCOUNT #1
+BALANCE: $200
+
+ACCOUNT #2
+BALANCE: $700
+
+ACCOUNT #3
+BALANCE: $1600.57
+
+ACCOUNT #4
+BALANCE: $500
+
+ACCOUNT #5
+BALANCE: $600
+
+]0;kfon@sol35:~/Desktop/gprof_assignment[kfon@sol35 gprof_assignment]$ ./main.cppg++ -Wall -pg main.cpp -o main.cpp[C[1P[1P[1@c[1@c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1@c[C[C[C[C[C[C[C[C[C[C[C[C[K[K
+]0;kfon@sol35:~/Desktop/gprof_assignment[kfon@sol35 gprof_assignment]$ 
+]0;kfon@sol35:~/Desktop/gprof_assignment[kfon@sol35 gprof_assignment]$ ls
+gmon.out  log.txt  [0m[01;32mmain.c[0m  [01;32mmain.cpp[0m
+[m]0;kfon@sol35:~/Desktop/gprof_assignment[kfon@sol35 gprof_assignment]$ 
+]0;kfon@sol35:~/Desktop/gprof_assignment[kfon@sol35 gprof_assignment]$ gprof main.cpp gmon.out > analysis1.txt
+]0;kfon@sol35:~/Desktop/gprof_assignment[kfon@sol35 gprof_assignment]$ 
+]0;kfon@sol35:~/Desktop/gprof_assignment[kfon@sol35 gprof_assignment]$ lss[K
+analysis1.txt  gmon.out  log.txt  [0m[01;32mmain.c[0m  [01;32mmain.cpp[0m
+[m]0;kfon@sol35:~/Desktop/gprof_assignment[kfon@sol35 gprof_assignment]$ lsgprof main.cpp gmon.out > analysis1.txt[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.txt2.txt
+]0;kfon@sol35:~/Desktop/gprof_assignment[kfon@sol35 gprof_assignment]$ ls
+analysis1.txt  analysis2.txt  gmon.out  log.txt  [0m[01;32mmain.c[0m  [01;32mmain.cpp[0m
+[m]0;kfon@sol35:~/Desktop/gprof_assignment[kfon@sol35 gprof_assignment]$ less analysis1.txt
+[?1049h[?1h=Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00        2     0.00     0.00  print_acct(int*, double*,  int)
+  0.00      0.00     0.00        1     0.00     0.00  global constructors keyed  to main
+  0.00      0.00     0.00        1     0.00     0.00  __static_initialization_an d_destruction_0(int, int)
+  0.00      0.00     0.00        1     0.00     0.00  menu()
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+[7manalysis1.txt [27m[K[K[?1l>[?1049l]0;kfon@sol35:~/Desktop/gprof_assignment[kfon@sol35 gprof_assignment]$ 
+]0;kfon@sol35:~/Desktop/gprof_assignment[kfon@sol35 gprof_assignment]$ 
+]0;kfon@sol35:~/Desktop/gprof_assignment[kfon@sol35 gprof_assignment]$ less naa[K[K[Kanalysis2.txt
+[?1049h[?1h=Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+ 
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+[7manalysis2.txt [27m[K[K[?1l>[?1049l]0;kfon@sol35:~/Desktop/gprof_assignment[kfon@sol35 gprof_assignment]$ 
+]0;kfon@sol35:~/Desktop/gprof_assignment[kfon@sol35 gprof_assignment]$ exit
+
+Script done on Tue 26 Sep 2017 02:45:34 AM EDT

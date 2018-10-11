@@ -1,0 +1,61 @@
+Script started on Tue 26 Sep 2017 02:49:44 AM EDT
+]0;kfon@sol34:~/Desktop/gprof_assignment[?1034h[kfon@sol34 gprof_assignment]$ manin[K[K[K[K[K/main[K[K[K[K[K./main.c
+I got exuser1
+Sit down on the number: 0
+Array looks like: exuser1 
+I got exuser2
+Sit down on the number: 1
+Array looks like: exuser1 exuser2 
+I got exuser1
+Already exists!
+Array looks like: exuser1 exuser2 
+I got exuser3
+Sit down on the number: 2
+Array looks like: exuser1 exuser2 exuser3 
+I got reboot
+Sit down on the number: 3
+Array looks like: exuser1 exuser2 exuser3 reboot 
+I got runlevel
+Already exists!
+Array looks like: exuser1 exuser2 exuser3 runlevel 
+I got LOGIN
+Already exists!
+Array looks like: exuser1 exuser2 exuser3 LOGIN 
+I got LOGIN
+Already exists!
+Array looks like: exuser1 exuser2 exuser3 LOGIN 
+I got LOGIN
+Already exists!
+Array looks like: exuser1 exuser2 exuser3 LOGIN 
+I got LOGIN
+Already exists!
+Array looks like: exuser1 exuser2 exuser3 LOGIN 
+I got LOGIN
+Already exists!
+Array looks like: exuser1 exuser2 exuser3 LOGIN 
+I got kfon
+Already exists!
+Array looks like: exuser1 exuser2 exuser3 kfon 
+I got dlall
+Already exists!
+Array looks like: exuser1 exuser2 exuser3 dlall 
+I got dlall
+Already exists!
+Array looks like: exuser1 exuser2 exuser3 dlall 
+I got kfon
+Already exists!
+Array looks like: exuser1 exuser2 exuser3 kfon 
+I got 
+Already exists!
+Array looks like: exuser1 exuser2 exuser3  
+I got dlall
+Already exists!
+Array looks like: exuser1 exuser2 exuser3 dlall 
+I got exuser4
+Sit down on the number: 4
+Array looks like: exuser1 exuser2 exuser3 dlall exuser4 
+]0;kfon@sol34:~/Desktop/gprof_assignment[kfon@sol34 gprof_assignment]$ 
+]0;kfon@sol34:~/Desktop/gprof_assignment[kfon@sol34 gprof_assignment]$ 
+]0;kfon@sol34:~/Desktop/gprof_assignment[kfon@sol34 gprof_assignment]$ exit
+
+Script done on Tue 26 Sep 2017 02:50:19 AM EDT
